@@ -1,0 +1,131 @@
+
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 0px; /* Remove default margin to eliminate white space */
+        padding: 0px; /* Remove default padding to eliminate white space */
+        min-height: 100vh; /* Ensure the body takes up at least the viewport height */
+    }
+
+
+.header {
+    background-color: #0d284b;
+    padding: 50px;
+    
+}
+
+.top {
+    background-color: #0d284b;
+    display: flex;
+    justify-content: space-between;
+    margin: 0; /* Remove margin to eliminate white space */
+    padding: 0;
+}
+
+.second {
+    background-color: rgb(104, 156, 211);
+    text-align: center;
+    margin: 0; /* Remove margin to eliminate white space */
+    padding: 0;
+    margin-top: -100px;
+}
+
+.third {
+    background-color: #0d284b;
+    margin: 0; /* Remove margin to eliminate white space */
+    padding: 0;
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    padding: 200px;
+}
+.four {
+    background-color: #92b2e6;
+    margin: 0; /* Remove margin to eliminate white space */
+    padding: 0;
+    text-align: center;
+    margin-top: -100px;
+    padding: 100px;
+
+
+}
+
+.link {
+    display: inline;
+    float: right;
+}
+
+h3 {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 50px 10px;
+    display: inline;
+}
+
+h4 {
+    color: lightgray;
+    font-size: 18px;
+    display: inline;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.toptext {
+    padding: 100px;
+    margin-left: 150px;
+    flex: 1;
+}
+
+.info {
+    flex: 1;
+    width: 200px;
+    height: auto;
+    margin: 150px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: #f9faf8;
+}
+
+.second h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: black;
+    padding: 50px;
+}
+
+.all img {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #0d284b;
+    border-radius: 10%; 
+    margin-bottom: 300px;
+}
+
+.three h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+    padding: 30px;
+}
+.third h3 {
+    color: lightblue;
+}
+.ques {
+    background-color: #cedaed;
+    border: 2px dashed black;
+    width: auto;
+    height: 200px;
+
+}
+
